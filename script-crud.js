@@ -26,7 +26,7 @@ function criarElemenoTarefa (tarefa) {
         </svg>
         `
 
-    const paragrafo = document.querySelector('p')
+    const paragrafo = document.createElement('p')
     console.log('paragrafo', paragrafo)
     paragrafo.textContent = tarefa.descricao
     paragrafo.classList.add('app__section-task-list-item-description')
